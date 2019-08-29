@@ -7,7 +7,7 @@
 .clearfix::after {
 	clear: both;
 	content: "";
-	display: block;	
+	display: block;
   }
 
 body::after{
@@ -16,7 +16,7 @@ body::after{
 	clear: both;
   }
 
-  /* BODY parent */
+/* BODY parent */
 body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, sans-serif;
@@ -24,7 +24,7 @@ body {
 	width: 100%;
 }
 
-  /* nav Parent */
+/* nav Parent */
 nav {
 	height: 36px;
 	position: absolute;
@@ -62,7 +62,6 @@ nav {
 	text-decoration: none;
 }
 
-/* csslint ignore:end */
 .navbar li a:hover {
 	background-color: #111111;
 }
@@ -82,7 +81,8 @@ nav {
 	transition: all 0.3s ease-in-out;
 	width: 106px;
 }
-  
+
+/* csslint ignore:end */
 .navbar label input:focus {
 	background-color: white !important;
 	background: url("images/search-icon-black.png") top 3px left 4px no-repeat;
@@ -101,8 +101,8 @@ article {
 #header-img {
 	background-image: url("images/your_verse_hero.jpg");
 	background-position: center bottom;
-	background-repeat:no-repeat;
-	background-size:cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 667px;
 	margin: auto;
 	width: 1440px;
@@ -142,7 +142,7 @@ article {
 	color: white;
 	font-family: 'Lato', sans-serif;
 	font-size: 1em;
-	font-weight: bolder;	
+	font-weight: bolder;
 	left: 605px;
 	line-height: 1.4em;
 }
@@ -192,7 +192,7 @@ aside {
 	float: left;
 	height: 200px;
 	margin: 0 1px 0 1px;
-	padding:  0 1px 0 1px;
+	padding: 0 1px 0 1px;
 	width: 356px;
 }
 
@@ -208,8 +208,7 @@ footer {
 }
 
 .foot-container {
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-	"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	height: 90px;
 	margin: auto;
 	width: 980px;
