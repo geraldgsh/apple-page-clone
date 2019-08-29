@@ -62,13 +62,13 @@ nav {
 	text-decoration: none;
 }
 
-.navbar li a:hover {
-	background-color: #111111;
+.navbar li a:hover { /* csslint allow: known-properties, important */
+	background-color: #111111; 
 }
 
 .navbar label input {
-	background-color: rgba(255, 255, 255, 0.096); /* csslint allow: known-properties, important */
 	background: url("images/search-icon.png") top 5px left 7px no-repeat; /* csslint allow: known-properties, important */
+	background-color: rgba(255, 255, 255, 0.096); /* csslint allow: known-properties, important */
 	background-size: 12px; /* csslint allow: known-properties, important */
 	border-radius: 12px;
 	border: 1px solid transparent;
@@ -176,7 +176,7 @@ article {
 	text-decoration: underline;
 }
 
-  /* aside Parent */
+/* aside Parent */
 aside {
 	width: 100%;
 	height: 200px;
@@ -201,7 +201,7 @@ aside {
 	width: 100%;
 }
 
-  /* footer Parent */
+/* footer Parent */
 footer {
 	height: 90px;
 	width: 100%;
