@@ -51,12 +51,11 @@ nav {
 	float: left;
 	border-right: 1px solid gray;
 }
-  
+
 .navbar li a {
 	display: block;
 	color: white;
-	text-align: center;
-	padding: 7.25px 34.75px 0 34.75px;
+	padding: 7.55px 34.75px 0 34.75px;
 	height: 36px;
 	text-decoration: none;
 	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -107,12 +106,12 @@ article {
 	background-size:cover;
 }
 
-#main-msg {
+.main-msg {
 	font-size: 32px;
 	text-align: center;
   }
 
-#main-msg h1 {
+.main-msg h1 {
 	position: absolute;
 	top: 220px;
 	left: 635px;
@@ -122,12 +121,12 @@ article {
 	color: white;
 }
 
-#main-msg h1:hover {
+.main-msg h1:hover {
 	cursor: pointer;
 	text-decoration: none;
 }
 
-#main-msg p:first-of-type {
+.main-msg p:first-of-type {
 	position: absolute;
 	top: 302px;
 	left: 553px;
@@ -138,7 +137,7 @@ article {
     font-family: 'Lato', sans-serif;
 }
   
-#main-msg p:nth-of-type(2) {
+.main-msg p:nth-of-type(2) {
 	position: absolute;
 	font-size: 0.8em;
 	font-size: 1em;
@@ -150,7 +149,7 @@ article {
     font-family: 'Lato', sans-serif;
 }
 
-#main-msg a:first-of-type {
+.main-msg a:first-of-type {
 	position: absolute;
 	top: 412px;
 	right: 673px;
@@ -160,18 +159,19 @@ article {
 	text-decoration: none;
 }
 
-#main-msg p:nth-of-type(2) i {
+.main-msg p i {
+	position: absolute;
 	font-size: 1em;
-	margin-left: 6px;
-	color: white;
-  }
+	top: 415px;
+	left: 1210px;
+}
 
-#main-msg p:hover {
+.main-msg p:hover {
 	cursor: pointer;
 	text-decoration: none;
 }
 
-#main-msg p a:hover {
+.main-msg p a:hover {
 	text-decoration: underline;
 }
 
@@ -206,7 +206,7 @@ footer {
 	height: 90px;
 }
 
-.foot-container {
+#foot-container {
 	margin: auto;
 	width: 980px;
 	height: 90px;
