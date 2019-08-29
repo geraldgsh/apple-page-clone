@@ -1,6 +1,6 @@
 linters:
   stylelint:
-    config: 'stylelint.config.js'
+    config:
 files:
   ignore:
     - 'bower_components/*'
