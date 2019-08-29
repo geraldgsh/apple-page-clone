@@ -67,9 +67,9 @@ nav {
 }
 
 .navbar label input {
-	background-color: rgba(255, 255, 255, 0.096);
-	background: url("images/search-icon.png") top 5px left 7px no-repeat;
-	background-size: 12px;
+	background-color: rgba(255, 255, 255, 0.096); /* csslint allow: known-properties, important */
+	background: url("images/search-icon.png") top 5px left 7px no-repeat; /* csslint allow: known-properties, important */
+	background-size: 12px; /* csslint allow: known-properties, important */
 	border-radius: 12px;
 	border: 1px solid transparent;
 	border-bottom: 0.5px solid rgb(156, 155, 155);
@@ -152,7 +152,6 @@ article {
 	text-decoration: none;
 }
 
-/* csslint ignore:end */
 .main-msg a:first-of-type {
 	color: white;
 	font-size: 25px;
@@ -160,6 +159,7 @@ article {
 	text-decoration: none;
 }
 
+/* csslint ignore:end */
 .main-msg p i {
 	font-size: 1em;
 	left: 990px;
